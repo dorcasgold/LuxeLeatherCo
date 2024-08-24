@@ -10,13 +10,18 @@
   <style type="text/css">
     body {
       margin: 0;
-      background-color: #cccccc;
-      font-family: "Noto Serif", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #3B2A26;
+      font-family: "Source Serif 4", Arial, Helvetica, sans-serif;
       color: #3B2A26;
     }
 
     table {
       border-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
     }
 
     td {
@@ -44,21 +49,15 @@
       color: #171a1b;
     }
 
-    .Primary {
-      color: #3B2A26;
-      font-family: "Merriweather", serif;
-    }
-
-    .Secondary {
-      color: #666464;
-
-    }
-
     .Buttons {
       color: #D4AF37;
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+    .alegreya {
+      font-family: "Alegreya Sans", sans-serif, Arial, Helvetica;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
   </style>
 </head>
 
@@ -76,29 +75,50 @@
 
       <!-- Header SECTION -->
       <tr>
-        <td style="padding: 8px 25px">
-          <table widtht="100%">
+        <td style="text-align: center; padding: 10px 35px;">
+          <p class="alegreya" style=" font-weight: bold; font-size: 33px; padding: 25px 0px;">
+            LuxeLeather Co.</p>
+          <p style="font-size: 20px; line-height: 25px; color: #000000; letter-spacing: 1px;">Your Exclusive First Look:
+            LuxeLeather
+            Co.'s Newest Collection
+          </p>
+        </td>
+      </tr>
 
+      <!-- Artisan section -->
+      <tr>
+        <td>
+          <table width="100%">
             <tr>
-              <td style="text-align: center; padding: 15px;">
-                <p class="Primary" style="font-size: 35px; font-weight: bold; margin: 5px;">LuxeLeather Co.</p>
-                <p class="Secondary"
-                  style="line-height: 23px; font-size: 20px; padding: 5px 0 15px; font-style: italic;">Introducing
-                  the
-                  Masterpiece You've Been Waiting For</p>
-                <p style="font-size: 19px; line-height: 30px; letter-spacing: 1px;">Thank you for joining our <span
-                    style="font-weight: 600;">"Early
-                    Access"</span> list! We're thrilled
-                  to give you an exclusive first look at
-                  our newest
-                  Collections. Be the first to experience the elegance and craftsmanship of our latest leather creation.
-                </p>
+              <td>
+
+                <table>
+                  <tr>
+                    <td style="text-align: center; padding: 15px 30px;">
+                      <p style="font-size: 25px; padding: 15px 0px; font-weight: 600;">Handcrafted Excellence</p>
+                      <p style="color: #111010; font-size: 18px; font-style: italic;">Witness the artistry behind every
+                        LuxeLeather Co.
+                        product. Our skilled
+                        artisans pour their
+                        expertise and passion into
+                        every stitch, ensuring each piece is a true masterpiece.</p>
+                    </td>
+                  </tr>
+                </table>
+                <table>
+                  <tr>
+                    <td><img src="Artisan.png" alt="Artisan Image" width="600" style="max-width: 100%;"></td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
         </td>
       </tr>
 
+      <tr>
+        <td height="8" style="background-color: #D4AF37;"></td>
+      </tr>
 
     </table>
   </center>
